@@ -54,7 +54,6 @@ Kd 1.000 0.000 0.000 # Diffuse color (red)
 Ks 0.000 0.000 0.000 # Specular color
 Ns 10.000             # Specular exponent
 
-# Material 2
 newmtl green1
 Ka 1.000 1.000 1.000 # Ambient color
 Kd 0.000 1.000 0.000 # Diffuse color (green)
