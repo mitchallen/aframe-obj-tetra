@@ -45,9 +45,12 @@ f 4 3 1
 
 * * *
 
-## color.mtl
+## colors.mtl
 
 ```mtl
+# colors.mtl 
+# Author: Mitch Allen
+
 newmtl red1
 Ka 1.000 1.000 1.000 # Ambient color
 Kd 1.000 0.000 0.000 # Diffuse color (red)
