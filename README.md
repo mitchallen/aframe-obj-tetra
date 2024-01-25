@@ -1,6 +1,8 @@
 aframe-obj-tetra
 ==
 
+Example OBJ file with material displayed using A-Frame.
+
 ## Usage
 
 On a Mac:
