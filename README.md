@@ -43,3 +43,34 @@ usemtl purple1
 f 4 3 1
 ```
 
+* * *
+
+## color.mtl
+
+```mtl
+newmtl red1
+Ka 1.000 1.000 1.000 # Ambient color
+Kd 1.000 0.000 0.000 # Diffuse color (red)
+Ks 0.000 0.000 0.000 # Specular color
+Ns 10.000             # Specular exponent
+
+# Material 2
+newmtl green1
+Ka 1.000 1.000 1.000 # Ambient color
+Kd 0.000 1.000 0.000 # Diffuse color (green)
+Ks 0.000 0.000 0.000 # Specular color
+Ns 10.000             # Specular exponent
+
+newmtl blue1
+Ka 1.000 1.000 1.000 # Ambient color
+Kd 0.000 0.000 1.000 # Diffuse color (blue)
+Ks 0.000 0.000 0.000 # Specular color
+Ns 10.000             # Specular exponent
+
+newmtl purple1
+Ka 1.000 1.000 1.000 # Ambient color
+Kd 1.000 0.000 1.000 # Diffuse color (blue)
+Ks 0.000 0.000 0.000 # Specular color
+Ns 10.000             # Specular exponent
+```
+
