@@ -1,0 +1,27 @@
+<html>
+<head>
+    <title>Tetrahedron</title>
+    <script src="https://aframe.io/releases/1.5.0/aframe.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="description" content="OBJ file demo">
+    <meta name="keywords" content="OBJ, AFrame, JavaScript">
+    <meta name="author" content="Mitch Allen">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <a-scene>
+        <a-assets>
+            <a-asset-item id="tetrahedron-obj" src="/models/tetrahedron.obj"></a-asset-item>
+            <a-asset-item id="colors-mtl" src="/models/colors.mtl"></a-asset-item>
+        </a-assets>
+        <a-obj-model rotation="0 0 0" position="0 1.5 -1.5" 
+            scale="0.5 0.5 0.5" src="#tetrahedron-obj" mtl="#colors-mtl" 
+            animation="property: rotation; to: 360 0 0; loop: true; dur: 3000"></a-obj-model>
+        <a-obj-model rotation="0 90 0" position="-0.5 1.5 -1.5" 
+            scale="0.5 0.5 0.5" src="#tetrahedron-obj" mtl="#colors-mtl" 
+            animation="property: rotation; to: 720 450 0; loop: true; dur: 3000"></a-obj-model>
+        <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4"></a-plane>
+        <a-sky color="#ECECEC"></a-sky>
+    </a-scene>
+</body>
+</html>
