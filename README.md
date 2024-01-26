@@ -3,6 +3,10 @@ aframe-obj-tetra
 
 Example OBJ file with material displayed using A-Frame.
 
+## Live demo:
+
+* https://mitchallen.github.io/aframe-obj-tetra/
+
 ## Usage
 
 On a Mac:
