@@ -3,6 +3,10 @@ aframe-obj-tetra
 
 Example OBJ file with material displayed using A-Frame.
 
+## See article:
+
+* [How to Apply a Material File to an OBJ in A-Frame](https://scriptable.com/aframe/aframe-object-material)
+
 ## Live demo:
 
 * https://mitchallen.github.io/aframe-obj-tetra/
