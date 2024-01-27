@@ -18,6 +18,12 @@ On a Mac:
 python3 -m http.server 8000
 ```
 
+Or use the provided shell script:
+
+```sh
+./run.sh
+```
+
 Then browse to:
 
 * http://localhost:8000/
