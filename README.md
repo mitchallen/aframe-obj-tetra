@@ -7,6 +7,9 @@ Example OBJ file with material displayed using A-Frame.
 
 * https://mitchallen.github.io/aframe-obj-tetra/
 
+* **desktop** - use mouse / trackpad and arrow keys to move around
+* **mobile** - use motion to pan around
+
 ## Usage
 
 On a Mac:
